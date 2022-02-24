@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header{
+    color: white;
+    padding: 10px 10px;
+    height: 10vh;
+}
+/* ANCHOR  CSS MENU' ALTO DX */
+.menu{
+    text-align: right;
+}
+.menu-top-right, .menu-top-left{
+    display: inline-block;
+}
+/* ICONE-MENU' */
+.fa-grip, .fa-maximize{
+    margin: 0 5px;
+}
+/* ANCHOR  CSS PARTECIPANTI */
+main{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+/* PARTECIPANTI */
+.zoom-account{
+    margin: 10px 5px;
+}
+.zoom-account img{
+    width: 100%;    
+}
+.account-img{
+    position: relative;
+}
+.account-name{
+    background-color: grey;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+/* ANCHOR  CSS MENU' IN BASSO */
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-bottom-left, .menu-bottom-center, .menu-bottom-right{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.menu-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.open-arrow{
+    margin: 0 15px;
+}
+.green{
+    color: limegreen;
+}
+.menu-bottom-right{
+    background-color: lightgrey; 
+    color: red; 
+    padding: 10px;
+}
